@@ -39,7 +39,7 @@
     border-radius:50%; 
     overflow: hidden;
     display:block; 
-    margin:auto;
+    margin: auto;
 }
 .circle > img{
     width: 100%;
