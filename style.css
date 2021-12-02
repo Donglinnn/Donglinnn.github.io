@@ -1,3 +1,13 @@
+body { 
+    height: 100%; 
+    width: 100%; 
+    padding: 0; 
+    margin: 0; 
+    background:repeating-linear-gradient(135deg, rgba(0, 64, 101, 0.3) 40%, rgba(232, 122, 144, 0.6) 60%), 
+     repeating-linear-gradient(45deg, rgba(0, 80, 126, 0.3) 40%, rgba(239, 187, 36, 0.6) 60%); 
+    background-size:1200px 3600px; 
+    background-position: 0 0; 
+} 
 .upper{
     color: #243664;
     text-align: center;
@@ -5,28 +15,82 @@
     font-size: x-large;
     font-style: oblique;
 }
-.button{
+/*.button{
     padding: 20px;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
     background-color: aqua;
     text-align: center;
     font-size: 20pt;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: italic;
+}*/
+.button {
+    justify-content: center;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 25px 50px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    left: 9%;
+    transform: translate(-0%, -0%);
+    border: 0px solid #aa0305;
+    border-radius: 62px;
+    background: #ff060a;
+    background: -webkit-garadient(linear, left top, left bottom, from(#ff060a), to(#aa0305));
+    background: -moz-linear-gradient(top, #ff060a, #aa0305);
+    background: linear-gradient(to bottom, #ff060a, #aa0305);
+    -webkit-box-shadow: #ff070c 0px 17px 29px 0px;
+    -moz-box-shadow: #ff070c 0px 17px 29px 0px;
+    box-shadow: #ff070c 0px 17px 29px 0px;
+    text-shadow: #640203 1px 1px 1px;
+    font: normal normal bold 20px comic sans ms;
+    color: #ffffff;
+    text-decoration: none;
 }
+.button:hover,
+.button:focus {
+    border: 0px solid ##c80406;
+    background: #ff070c;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff070c), to(#cc0406));
+    background: -moz-linear-gradient(top, #ff070c, #cc0406);
+    background: linear-gradient(to bottom, #ff070c, #cc0406);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background: #aa0305;
+    background: -webkit-gradient(linear, left top, left bottom, from(#aa0305), to(#aa0305));
+    background: -moz-linear-gradient(top, #aa0305, #aa0305);
+    background: linear-gradient(to bottom, #aa0305, #aa0305);
+}
+
 .intro{
+    margin: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
     color: #243664;
     font-size: x-large;
     font-family: DFKai-sb;
     font-style: normal;
 }
 .edu{   
+    margin: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
     color: #243664;    
     font-size: x-large;
     font-family: DFKai-sb;
     font-style: normal;
 }
 .travel{
+    margin: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
     color: #243664;    
     font-size: x-large;
     font-family: DFKai-sb;
@@ -34,6 +98,9 @@
     text-align: center;
 }
 .trip{
+    margin: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
     color: #243664;    
     font-size: x-large;
     font-family: DFKai-sb;
