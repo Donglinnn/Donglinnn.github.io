@@ -56,8 +56,8 @@ body {
 }
 
 .circle{
-    width:400px; 
-    height:400px; 
+    width:30%; 
+    height:30%; 
     border-radius:50%; 
     overflow: hidden;
     display:block; 
