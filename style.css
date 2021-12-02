@@ -31,6 +31,14 @@
     font-size: larger;
     font-family: DFKai-sb;
     font-style: normal;
+    text-align: center;
+}
+.trip{
+    color: #243664;    
+    font-size: x-large;
+    font-family: DFKai-sb;
+    font-style: normal;
+   /* text-align: center; */
 }
 .bgcolor{
     background-color: cornsilk;
