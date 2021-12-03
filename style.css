@@ -1,3 +1,4 @@
+
 body { 
     
     height: 100%; 
@@ -12,7 +13,7 @@ body {
 
 .upper{
     color: #243664;
-    margin: 10vw;
+    margin: 8vw;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 24px;
@@ -29,7 +30,7 @@ body {
     margin-bottom: 3%;
     margin-left: 20%;
     margin-right: 20%;
-    /*background-color: #66bab7;*/
+    background-color: #66bab7;
     text-align: center;
     font-size: 24px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -88,8 +89,8 @@ body {
 }
 
 .circle{
-    width:30%; 
-    height:30%; 
+    width:50%; 
+     
     border-radius:50%; 
     overflow: hidden;
     display:block; 
