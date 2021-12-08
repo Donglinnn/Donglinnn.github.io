@@ -127,6 +127,7 @@ p {
 }
 .showcont:hover {
     background-color: #58b2dc;
+    border-radius: 10px;
 }
 .subt {
     color: "";
@@ -147,6 +148,8 @@ p {
     padding: 40px 80px;
     border: 1px solid #77428d;
     background-color: #b481bb;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 /*區塊間分隔*/
 .contents > section + section {
@@ -167,6 +170,10 @@ p {
     content: "";
     display: block;
     clear: both;
+}
+.buttonmid {
+    text-align: center;
+    margin: 0 auto;
 }
 
 
