@@ -39,7 +39,19 @@ header, nav, footer {
 .menu a:hover {
     background-color: #e16b8c;
 }
-
+.more {
+    display: block;
+    width: 100px;
+    padding: 10px;
+    background-color: #c73e3a;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;  
+    font-family: 'Corinthia', cursive;
+}
+.more:hover {
+    background-color: #e16b8c;
+}
 /*h1大標*/
 h1 {
     width: 300px;
@@ -116,6 +128,18 @@ p {
 .showcont:hover {
     background-color: #58b2dc;
 }
+.subt {
+    color: "";
+    text-align: center;
+    font-family: 'Fuzzy Bubbles', cursive;
+    margin: 3% 10%;
+    padding: 5px 10px;
+    font-size: 18px;
+    background-image: linear-gradient(to right, #2ea9df, #006284);
+    border-radius: 10px;
+    border: 1px solid #006284;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5) inset;
+}
 /*主內容*/
 #contents {
     width: 798px;
@@ -144,14 +168,8 @@ p {
     display: block;
     clear: both;
 }
-.more {
-    text-align: right;
-}
-.more::after {
-    content: url(ico_arrow.png);
-    margin-left: 3px;
-    vertical-align: middle;
-}
+
+
 /*.upper{
     color: #243664;
     margin: 8vw;
