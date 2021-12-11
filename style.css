@@ -24,6 +24,11 @@ a {
 header, footer {
     text-align: center;
 }
+p {
+    text-align: center;
+    font-family: "DFKai-sb";
+    
+}
 /*處理導覽
 .menu li {
     list-style-type: none;
@@ -135,8 +140,8 @@ header, footer {
         opacity: 1;
         transition: all 0.5 ease;
         z-index: 99;
-        height: 83vh;
-        font-size: 1.6rem;
+        height: 80vh;
+        font-size: 1.4rem;
     }
     #navbar__logo {
         padding-left: 25px;        
@@ -163,56 +168,62 @@ header, footer {
         right: 5%;
         transform: translate(5%, 20%);
     }
-    #mobile-menu .bar:nth-child(4) {
+    #mobile-menu .bar:nth-child(1) {
         opacity: 0;
     }
     #mobile-menu .bar:nth-child(5) {
         opacity: 0;
     }
-    #mobile-menu .bar:nth-child(6) {
-        opacity: 0;
-    }
+    
     .navbar__toggle .bar{
         display: block;
         cursor: pointer;
     }
     #mobile-menu.is-active .bar:nth-child(4) {
-        opacity: 0;        
-    }
-    #mobile-menu.is-active .bar:nth-child(3) {
-        transform: translateY(8px) rotate(45deg);       
-    }
-    #mobile-menu.is-active .bar:nth-child(5) {
-        opacity: 1;
         transform: translateY(-8px) rotate(-45deg);       
     }
-    #mobile-menu.is-active .bar:nth-child(2) {
-        opacity: 0;      
+    #mobile-menu.is-active .bar:nth-child(3) {
+        opacity: 0;
     }
-    #mobile-menu.is-active .bar:nth-child(6) {
+    #mobile-menu.is-active .bar:nth-child(2) {
+        transform: translateY(8px) rotate(45deg); 
+    }
+    /*#mobile-menu.is-active .bar:nth-child(5) {
         opacity: 0;      
     }
     #mobile-menu.is-active .bar:nth-child(1) {
         opacity: 0;       
-    }
+    }*/
     
     #contents {
         width: 90vw;
     }
 }
-.more {
-    display: block;
-    width: 100px;
-    padding: 10px;
+/*.more {
+    
+    text-align: center;
+    align-items: center;
+    margin: 0 10px;        
+    padding: 20px;
     background-color: #c73e3a;
     border-radius: 10px;
-    color: #fff;
+    color: #c1328e;
     text-decoration: none;  
     font-family: 'Corinthia', cursive;
-}
+}*/
 .more:hover {
     background-color: #e16b8c;
 }
+/*.more a {
+    display: block;
+    text-align: center;
+    padding: 10px;    
+    border-radius: 10px;
+    color: #000;
+    text-decoration: none;  
+    font-family: 'Corinthia', cursive;
+
+}*/
 /*h1大標
 h1 {
     width: 300px;
@@ -268,11 +279,7 @@ h3 {
     background-color: #e9cd4c;
     border-radius: 10px;
 }
-p {
-    text-align: center;
-    font-family: "DFKai-sb";
-    
-}
+
 .showcont {
     color: "";
     text-align: center;
