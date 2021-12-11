@@ -6,33 +6,69 @@
     <meta charset="UTF-8">
     <meta name="description" content="我的網站的首頁">
     <meta name="keywords" content="Hanson Hu, 胡哲綸">
-
     <title>Hanson's Website</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" href="bitbug_favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css" media="all">
-    <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Fuzzy+Bubbles&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Fuzzy+Bubbles&family=Smooch&display=swap"
         rel="stylesheet">
-    <!--<link href="media.css" rel="stylesheet" type="text/css"
-        media="only screen and (mid-width: 0px) and (max-width: 320px)">
-    <link href="media.css" rel="stylesheet" type="text/css"
-        media="only screen and (mid-width: 321px) and (max-width: 768px)">
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />-->
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+
 </head>
 
 <body>
-    <header>
-        <h1>Hanson's Website</h1>
-    </header>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#home" id="navbar__logo">Hanson's Website</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
 
-    <nav class="menu">
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="index.html" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="travel.html" class="navbar__links" id="travel-page">Travel</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="music.html" class="navbar__links" id="music-page">Music</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="city.html" class="navbar__links" id="citynote-page">City Note</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="jp.html" class="navbar__links" id="jp-page">Japanese Learning</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="fr.html" class="navbar__links" id="fr-page">French Learning</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="ru.html" class="navbar__links" id="ru-page">Russian Learning</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <!--<header>
+        <h1>Hanson's Website</h1>
+    </header>-->
+
+    <!--<nav class="menu navbar">
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href=travel.html>Travel</a></li>
+            <li><a href="travel.html">Travel</a></li>
             <li><a href="music.html">Music</a></li>
             <li><a href="city.html">City note</a></li>
         </ul>
-    </nav>
+    </nav>-->
+
 
     <main id="contents">
 
@@ -47,7 +83,8 @@
 
 
                 <div class="showcont">
-                    <p>My name is Hanson Hu (胡哲綸), I am currently a junior studing in the department of computer science
+                    <p>My name is Hanson "Che-Lun" Hu (胡哲綸), I am currently a junior studing in the department of
+                        computer science
                         and imformation engineering in National Donghwa University.</p>
                     <p>I was born in Yuanlin City, Changhua County, ROC. I love to draw and watch 2D maps.
                         Nowadays, I often use Google map to travel around the world.</p>
@@ -85,15 +122,17 @@
             <section id="contactme">
                 <h3 class="h-sub">Contact Me</h3>
                 <div class="buttonmid">
-                    <a href="https://www.facebook.com/hanson.hu.7/" target="_blank"><img src="icon/facebook.png" width="44px"
+                    <a href="https://www.facebook.com/hanson.hu.7/" target="_blank"><img src="icon/facebook.png"
+                            width="44px" height="44px"></a>
+                    &emsp;
+                    <a href="https://www.instagram.com/donglin51613/" target="_blank"><img src="icon/instagram.png"
+                            width="44px" height="44px"></a>
+                    &emsp;
+                    <a href="https://twitter.com/donglinnn" target="_blank"><img src="icon/twitter.png" width="44px"
                             height="44px"></a>
                     &emsp;
-                    <a href="https://www.instagram.com/donglin51613/" target="_blank"><img src="icon/instagram.png" width="44px"
+                    <a href="https://github.com/Donglinnn" target="_blank"><img src="icon/github.png" width="44px"
                             height="44px"></a>
-                    &emsp;
-                    <a href="https://twitter.com/donglinnn" target="_blank"><img src="icon/twitter.png" width="44px" height="44px"></a>
-                    &emsp;
-                    <a href="https://github.com/Donglinnn" target="_blank"><img src="icon/github.png" width="44px" height="44px"></a>
                     &emsp;
                     <a href="https://www.linkedin.com/in/%E5%93%B2%E7%B6%B8-%E8%83%A1-8b76ba20a/" target="_blank"><img
                             src="icon/linkedin.png" width="44px" height="44px"></a>
@@ -107,7 +146,7 @@
     <footer>
         <p><small>Copyright © 2021 Hanson Hu. All rights reserved.</small></p>
     </footer>
-
+    <script src="app.js"></script>
 </body>
 
 </html>
