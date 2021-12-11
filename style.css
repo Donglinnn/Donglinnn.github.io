@@ -144,7 +144,8 @@ p {
         font-size: 1.4rem;
     }
     #navbar__logo {
-        padding-left: 25px;        
+        padding-left: 25px; 
+        font-family: "DFKai-sb";       
     }
     .navbar__toggle .bar {
         width: 25px;
