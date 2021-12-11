@@ -104,6 +104,8 @@ header, footer {
     color: #6a4c9c;
     transition: all 0.3s ease;
 }
+
+
 @media screen and (max-width: 960px) {
     .navbar__container {
         display: flex;
@@ -194,6 +196,9 @@ header, footer {
         opacity: 0;       
     }
     
+    #contents {
+        width: 90vw;
+    }
 }
 .more {
     display: block;
@@ -208,7 +213,7 @@ header, footer {
 .more:hover {
     background-color: #e16b8c;
 }
-/*h1大標*/
+/*h1大標
 h1 {
     width: 300px;
     margin: 40px auto;
@@ -223,7 +228,7 @@ h1 {
     text-shadow: 1px 1px 2px #0b346e;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     background-image: linear-gradient(to bottom, #ca7a2c, #6e552f);
-}
+}*/
 /*h2*/
 h2 {
     text-align: center;
@@ -236,8 +241,8 @@ h2 {
 }
 .h {
     text-align: center;
-    padding: 10px;
-    margin-bottom: 30px;
+    padding: 3%;
+    margin-bottom: 10%;
     border: 1px dotted #dac9a6;
     border-left: 10px solid #efbb24;
     color: #26453d;
@@ -255,8 +260,8 @@ h3 {
 }
 .h-sub {
     text-align: center;
-    padding: 10px;
-    margin-bottom: 30px;
+    padding: 3%;
+    margin-bottom: 5%;
     border: 1px dotted #dac9a6;
     color: #0d5661;
     font-family: "DFKai-sb";
@@ -300,9 +305,10 @@ p {
 }
 /*主內容*/
 #contents {
-    width: 798px;
+    box-sizing: border-box;
+    max-width: 960px;
     margin: 40px auto;
-    padding: 40px 80px;
+    padding: 4% 6%;
     border: 1px solid #77428d;
     background-color: #b481bb;
     border-radius: 20px;
@@ -333,17 +339,15 @@ p {
     margin: 0 auto;
 }
 
-
-
 .circle{
-    width: 320px; 
-    
+    width: 40%;
+    height: 40%;    
     border-radius:50%; 
     overflow: hidden;
     display:block; 
     margin:0 auto;
 }
 .circle > img{
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    height: auto;
 }
