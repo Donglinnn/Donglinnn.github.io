@@ -84,7 +84,7 @@ p {
     align-items: center;
     cursor: pointer;
     text-decoration: none;
-    font-family: 'Smooch', "DFkai-sb", cursive;
+    font-family: 'Smooch', "DFkai-sb", cursive, sans-serif;
     font-size: 2rem;
 }
 .navbar__menu {
