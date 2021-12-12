@@ -84,7 +84,7 @@ p {
     align-items: center;
     cursor: pointer;
     text-decoration: none;
-    font-family: 'Smooch', cursive;
+    font-family: 'Smooch', "DFkai-sb", cursive;
     font-size: 2rem;
 }
 .navbar__menu {
@@ -248,7 +248,7 @@ h2 {
     border: 1px dotted #dac9a6;
     border-left: 10px solid #efbb24;
     color: #26453d;
-    font-family: "Lucida Sans";
+    font-family: "Lucida Sans", sans-serif;
 }
 .h {
     text-align: center;
@@ -257,7 +257,7 @@ h2 {
     border: 1px dotted #dac9a6;
     border-left: 10px solid #efbb24;
     color: #26453d;
-    font-family: "Lucida Sans";    
+    font-family: "Lucida Sans", sans-serif;    
     border-radius: 5px 0 0 5px;
 }
 /*h3*/
@@ -267,7 +267,7 @@ h3 {
     margin-bottom: 30px;
     border: 1px dotted #dac9a6;
     color: #0d5661;
-    font-family: "DFKai-sb";
+    font-family: "DFKai-sb", sans-serif;
 }
 .h-sub {
     text-align: center;
@@ -275,7 +275,7 @@ h3 {
     margin-bottom: 5%;
     border: 1px dotted #dac9a6;
     color: #0d5661;
-    font-family: "DFKai-sb";
+    font-family: "DFKai-sb", sans-serif;
     background-color: #e9cd4c;
     border-radius: 10px;
 }
