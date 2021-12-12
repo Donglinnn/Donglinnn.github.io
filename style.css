@@ -24,11 +24,12 @@ a {
 header, footer {
     text-align: center;
 }
-p {
+p, h4 {
     text-align: center;
     font-family: "DFKai-sb", sans-serif;
     
 }
+
 /*處理導覽
 .menu li {
     list-style-type: none;
@@ -296,6 +297,29 @@ h3 {
 .showcont:hover {
     background-color: #58b2dc;
     border-radius: 10px;
+}
+.leftshowcont {
+    color: "";
+    text-align: left;
+    font-family: "DFKai-sb";
+    /*margin: 3% 10%;*/
+    font-size: 18px;
+    color: #0b346e;
+}
+.leftshowcont ul {
+    margin: 3% 10%;
+    padding: 0;
+    font-size: 16px;
+}
+.leftshowcont:hover {
+    background-color: #58b2dc;
+    border-radius: 10px;
+}
+hr {
+    background-color: #005caf;
+    height: 1px;
+    border: 0;
+    
 }
 .subt {
     color: "";
