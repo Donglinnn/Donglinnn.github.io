@@ -26,7 +26,7 @@ header, footer {
 }
 p {
     text-align: center;
-    font-family: "DFKai-sb";
+    font-family: "DFKai-sb", sans-serif;
     
 }
 /*處理導覽
@@ -52,7 +52,7 @@ p {
     background: #00B4DB;
     background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  
     background: linear-gradient(to right, #0083B0, #00B4DB);
-    font-family: 'Corinthia', cursive;
+    font-family: 'Corinthia', cursive, sans-serif;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -84,7 +84,7 @@ p {
     align-items: center;
     cursor: pointer;
     text-decoration: none;
-    font-family: 'Smooch', "DFkai-sb", "Lucida Sans", sans-serif;
+    font-family: 'Smooch', "DFKai-sb", "Lucida Sans", sans-serif;
     font-size: 2rem;
 }
 .navbar__menu {
@@ -300,7 +300,7 @@ h3 {
 .subt {
     color: "";
     text-align: center;
-    font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Fuzzy Bubbles', cursive, sans-serif;
     margin: 3% 10%;
     padding: 5px 10px;
     font-size: 18px;
